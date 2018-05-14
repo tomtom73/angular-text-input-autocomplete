@@ -23,8 +23,8 @@ import { Subject } from 'rxjs/Subject';
     `
     .dropdown-menu {
       display: block;
-      height: 200px;
-      overflow: auto;
+      max-height: 200px;
+      overflow-y: auto;
     }
   `
   ]
