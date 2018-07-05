@@ -26,6 +26,7 @@ import { Subject } from 'rxjs';
         display: block;
         max-height: 200px;
         overflow-y: auto;
+        resize: both;
       }
     `
   ]
