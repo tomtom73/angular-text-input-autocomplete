@@ -20,7 +20,18 @@ https://mattlewis92.github.io/angular-text-input-autocomplete/
 
 ## About
 
-A angular 4+ directive for adding autocomplete functionality to text input elements, built around composability
+Derived from angular-text-input-autocomplete 0.1.2:
+
+https://www.npmjs.com/package/angular-text-input-autocomplete 
+
+All configuration is same as angular-text-input-autocomplete.
+
+Some changes:
+
+* Background color for catalog name, which is identified by '---'. Meaning, any item in the dropdown list starts with '---' will have a different background.
+* Escape key closes the dropdown menu
+* Dropdown menu is scrollable
+* Up/Down arrows scroll the scrollable dropdown menu.
 
 ## Installation
 
