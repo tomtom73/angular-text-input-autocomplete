@@ -166,6 +166,9 @@ export class TextInputAutocompleteDirective implements OnDestroy {
         left
       };
       this.menu.component.changeDetectorRef.detectChanges();
+      this.menu.component.instance.closeMenu.subscribe((result: any) => {
+        this.hideMenu();
+      });
       this.menu.component.instance.selectChoice
         .takeUntil(this.menuHidden)
         .subscribe(choice => {
