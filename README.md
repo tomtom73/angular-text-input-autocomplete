@@ -37,7 +37,7 @@ Some changes:
 
 Install through npm:
 ```
-npm install --save angular-text-input-autocomplete
+npm install --save ngx-input-autocomplete
 ```
 
 For older browsers you will need the `keyboardevent-key-polyfill` polyfill:
@@ -50,7 +50,7 @@ Then include in your apps module:
 ```typescript
 import { polyfill as keyboardEventKeyPolyfill } from 'keyboardevent-key-polyfill';
 import { NgModule } from '@angular/core';
-import { TextInputAutocompleteModule } from 'angular-text-input-autocomplete';
+import { TextInputAutocompleteModule } from 'ngx-input-autocomplete';
 
 keyboardEventKeyPolyfill();
 
